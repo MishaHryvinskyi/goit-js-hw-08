@@ -26,7 +26,7 @@ function createListElement(galleryItems) {
 }).join(' ');
 };
 
-const lightbox = new SimpleLightbox('.gallery a', {
+const lightbox = new SimpleLightbox('gallery a', {
     captionsData: 'alt',
     captionPosition: 'bottom',
     captionDelay: 250,
